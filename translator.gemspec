@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version    = Gem::Requirement.new('>= 3.0.3')
   spec.files                    = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_dependency 'faraday', '~> 2.3.0'
-  spec.add_dependency 'faraday-net_http', '~> 2.0.3'
+  spec.add_dependency 'faraday', '~> 1.5.1'
+  spec.add_dependency 'faraday-net_http', '~> 1.0'
 
   spec.add_development_dependency 'brakeman', '~> 5.2.3'
   spec.add_development_dependency 'bundle-audit', '~> 0.1.0'
