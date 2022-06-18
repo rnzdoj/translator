@@ -1,0 +1,9 @@
+coverage
+.env
+.idea
+Gemfile.lock
+log/**/*.rb
+spec/dummpy/tmp/**/*.rb
+spec/dummpy/log/**/*.rb
+.bundle
+.DS_Store
