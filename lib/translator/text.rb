@@ -27,7 +27,7 @@ module Translator
     private
 
     def process_response(response)
-      puts response.dig('data', 'translations', 0, 'translatedText')
+      response.dig('data', 'translations', 0, 'translatedText')
     end
   end
 end
